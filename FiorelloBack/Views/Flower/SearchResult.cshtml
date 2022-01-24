@@ -1,0 +1,20 @@
+﻿@model List<Flower>
+@{
+    ViewData["Title"] = "SearchResult";
+}
+<div>
+    <span class="w-100" style="font-size:40px;" asp-validation-for="@Model.FirstOrDefault().Name"></span>
+
+    <input asp-for="@Model.FirstOrDefault().Name" />
+</div>
+<div class="container">
+
+    <div class="row">
+        <div id="cards">
+
+            @await Html.PartialAsync("_ParitialView",Model)
+        </div>
+
+
+    </div>
+</div>

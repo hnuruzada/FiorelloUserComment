@@ -1,0 +1,100 @@
+﻿@model RegisterVM
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Majestic Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="~/Admin/Assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/Admin/Assets/vendors/base/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="~/Admin/Assets/css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="~/Admin/Assets/images/favicon.png" />
+</head>
+
+<body>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="content-wrapper d-flex align-items-center auth px-0">
+                <div class="row w-100 mx-0">
+                    <div class="col-lg-4 mx-auto">
+                        <div class="auth-form-light text-left py-5 px-4 px-sm-5">
+                            <div class="brand-logo">
+                                <img src="~/Assets/images/h2-logo-1.png" alt="logo">
+                            </div>
+                            <h4>New here?</h4>
+                            <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
+                            <div class="alert alert-danger" asp-validation-summary="ModelOnly"></div>
+                            <form class="pt-3" method="post">
+                                <div class="form-group">
+                                    <input asp-for="Name"  class="form-control form-control-lg" placeholder="Name"><br />
+                                    <span class="text-danger text" asp-validation-for="Name"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="Surname"  class="form-control form-control-lg" placeholder="Surname"><br />
+                                    <span class="text-danger text" asp-validation-for="Surname"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="Username" class="form-control form-control-lg" placeholder="Username"><br />
+                                    <span class="text-danger text" asp-validation-for="Username"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="Email" class="form-control form-control-lg" placeholder="Email"><br />
+                                    <span class="text-danger text" asp-validation-for="Email"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <input asp-for="Password" class="form-control form-control-lg" placeholder="Password"><br />
+                                    <span class="text-danger text" asp-validation-for="Password"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="ConfirmPassword" class="form-control form-control-lg" placeholder="Confirm Password"><br />
+                                    <span class="text-danger text" asp-validation-for="ConfirmPassword"></span>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="form-check">
+                                        <label class="form-check-label text-muted">
+                                            <input asp-for="Terms" class="form-check-input">
+                                            I agree to all Terms & Conditions
+                                        </label>
+                                        <span class="text text-danger" asp-validation-for="Terms"></span>
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">SIGN UP</button>
+                                </div>
+                                <div class="text-center mt-4 font-weight-light">
+                                    Already have an account? <a asp-controller="account" asp-action="login" class="text-primary">Login</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="~/Admin/Assets/vendors/base/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- inject:js -->
+    <script src="~/Admin/Assets/js/off-canvas.js"></script>
+    <script src="~/Admin/Assets/js/hoverable-collapse.js"></script>
+    <script src="~/Admin/Assets/js/template.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>

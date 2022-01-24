@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a6262355-c04e-48a0-9b70-2de9f2adb351": {
+      "ProjectGuid": "a6262355-c04e-48a0-9b70-2de9f2adb351",
+      "DisplayName": "FiorelloBack",
+      "ColorIndex": 0
+    },
+    "5a039868-a740-4c21-9325-8b0fc696e34f": {
+      "ProjectGuid": "5a039868-a740-4c21-9325-8b0fc696e34f",
+      "DisplayName": "FiorelloBack",
+      "ColorIndex": 1
+    },
+    "3d35de91-104a-404d-8da8-78e5db165957": {
+      "ProjectGuid": "3d35de91-104a-404d-8da8-78e5db165957",
+      "DisplayName": "FiorelloBack",
+      "ColorIndex": 2
+    },
+    "9d247c95-5a63-40e0-898e-35abc53eb1ae": {
+      "ProjectGuid": "9d247c95-5a63-40e0-898e-35abc53eb1ae",
+      "DisplayName": "FiorelloBack",
+      "ColorIndex": 3
+    },
+    "90bbca59-5509-41da-b0a2-f8c80c66a439": {
+      "ProjectGuid": "90bbca59-5509-41da-b0a2-f8c80c66a439",
+      "DisplayName": "FiorelloBack",
+      "ColorIndex": 4
+    },
+    "0c74c248-a619-4786-972b-79949e3a0191": {
+      "ProjectGuid": "0c74c248-a619-4786-972b-79949e3a0191",
+      "DisplayName": "FiorelloBack",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "0831cc0e-1365-4a6d-b499-8c1658bc72f8": {
+      "ProjectGuid": "0831cc0e-1365-4a6d-b499-8c1658bc72f8",
+      "DisplayName": "FiorelloBack",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}
